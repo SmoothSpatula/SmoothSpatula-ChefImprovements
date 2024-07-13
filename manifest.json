@@ -1,0 +1,9 @@
+{
+	"name": "SmoothGameplayTweeks",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/SmoothSpatula/SmoothSpatula-SmoothGameplayTweeks",
+	"description": "Mod for fixing/improving stuff. Right now it's only for some of CHEF's abilities.",
+	"dependencies": [
+		"ReturnOfModding-ReturnOfModding-1.0.32"
+	]
+}
