@@ -2,7 +2,7 @@
 
 This mod is a collection of fixes/gameplay improvements
 
-## List of Fixes
+## List of Fixes/Improvements
 
 - Fixed Chef's SEAR ability not stunning, now stuns for 2 seconds
 
