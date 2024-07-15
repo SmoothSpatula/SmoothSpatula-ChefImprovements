@@ -31,3 +31,20 @@ gm.post_script_hook(gm.constants.damager_calculate_damage, function(self, other,
         gm.apply_buff(target, 10, 120.0, 1) -- apply stun
     end
 end)
+
+-- == Section maxhp_cap set to 10 Million == --
+local callback_names = gm.variable_global_get("callback_names")
+local on_player_init_callback_id = 0
+for i = 1, #callback_names do
+    local callback_name = callback_names[i]
+    if callback_name:match("onPlayerInit") then
+        on_player_init_callback_id = i - 1
+    end
+end
+
+gm.post_script_hook(gm.constants.callback_execute, function(self, other, result, args)
+    local callback_id = args[1].value
+    if callback_id == on_player_init_callback_id then
+        self.maxhp_cap = 100000000
+    end
+end)
