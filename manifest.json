@@ -1,8 +1,8 @@
 {
-	"name": "SmoothGameplayTweeks",
+	"name": "ChefImprovements",
 	"version_number": "1.0.0",
-	"website_url": "https://github.com/SmoothSpatula/SmoothSpatula-SmoothGameplayTweeks",
-	"description": "Mod for fixing/improving stuff. Right now it's only for some of CHEF's abilities.",
+	"website_url": "https://github.com/SmoothSpatula/SmoothSpatula-ChefImprovements",
+	"description": "Fixes CHEF's SEAR not stunning and added duration to temporary items created by COOK.",
 	"dependencies": [
 		"ReturnOfModding-ReturnOfModding-1.0.32"
 	]
