@@ -6,6 +6,7 @@
 
 ## Special Thanks To
 * Antiiilluminatisquad and Pacca for suggesting these fixes/changes
+* Raiva on The RoMD for reporting a bug
 * The Return Of Modding Discord
 
 ## Contact
