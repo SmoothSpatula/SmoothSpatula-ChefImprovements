@@ -1,6 +1,6 @@
 {
 	"name": "ChefImprovements",
-	"version_number": "1.0.0",
+	"version_number": "1.0.1",
 	"website_url": "https://github.com/SmoothSpatula/SmoothSpatula-ChefImprovements",
 	"description": "Fixes CHEF's SEAR not stunning and added duration to temporary items created by COOK.",
 	"dependencies": [
